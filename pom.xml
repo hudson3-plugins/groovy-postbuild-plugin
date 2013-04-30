@@ -9,7 +9,7 @@
     <groupId>org.hudsonci.plugins</groupId>
     <name>Groovy Postbuild</name>
     <artifactId>groovy-postbuild</artifactId>
-    <version>1.9-h-1-SNAPSHOT</version>
+    <version>1.9-h-1</version>
     <packaging>hpi</packaging>
     <url>http://wiki.hudson-ci.org/display/HUDSON/Groovy+Postbuild+Plugin</url>
 
