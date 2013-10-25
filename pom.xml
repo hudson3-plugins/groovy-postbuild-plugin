@@ -31,11 +31,20 @@
     </scm>
     <dependencies>
         <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>1.8.6</version>
-            <type>jar</type>
+            <groupId>org.hudsonci.plugins</groupId>
+            <artifactId>groovy-support-plugin</artifactId>
+            <version>3.0.3</version>
         </dependency>
     </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.hudson.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <version>3.0.2</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>  
 
